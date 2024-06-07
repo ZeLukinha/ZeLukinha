@@ -7,7 +7,16 @@ FELICIDAD
 HAMBRE
 FECAS
 VIVO O MUERTO
-El usuario podra interactuar con el sansagotchi, por casa interaccion sera un turno (un turno sera >1 si y solamente interactua con el MISMO sansagotchi, si el usuario cambia de sansagotchi el contador de turnos se reinicia).
+El usuario podra interactuar con el sansagotchi, por cada interaccion sera un turno (un turno sera >1 si y solamente interactua con el MISMO sansagotchi,
+si el usuario cambia de sansagotchi el contador de turnos se reinicia).
+Exisitran distintas acciones las cuales son:
+Acariciar a un SansaGotchi: Esto aumenta el Nivel de Felicidad de un SansaGotchi 
+Alimentar a un SansaGotchi: Esto aumenta el Nivel de Alimentacion
+Limpiar a un SansaGotchi: Esto retira una cantidad aleatoria de plorts acumulados por un SansaGotchi
+Llamar a un SansaGotchi: Buscar a un SansaGotchi vivo por su nombre
+Funeral SansaGotchi: Enterrar a un SansaGotchi que acaba de fallecer
+Visitar a un SansaGotchi: Visitar la tumba de un SansaGotchi muerto, a partir de su nombre
+
 
 -  Condiciones de compilacion y ejecucion:
 Debe ser compilado en la version gcc 4.8.5

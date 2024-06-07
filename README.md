@@ -20,8 +20,10 @@ Visitar a un SansaGotchi: Visitar la tumba de un SansaGotchi muerto, a partir de
 
 -  Condiciones de compilacion y ejecucion:
 Debe ser compilado en la version gcc 4.8.5
+
 -  Instrucciones de compilacion y ejecucion:
-Se presentara un MAKEFILE,
+Se presentara un MAKEFILE con su respetcivo TEST para la ejecucion del programa
+
 -  Informacion del creador:
 Lucas Ignacio Andrade Gonzalez
 Paralelo 201

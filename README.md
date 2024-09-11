@@ -40,9 +40,9 @@ gcc -std=c99 NombreDelArchvio.c -o NombreDelArchivo
 ./NombreDelArchivo
 
 -  Informacion del creador:
-Lucas Ignacio Andrade Gonzalez
+Lucas Ignacio Andrade Gonzalez 
 Paralelo 200
-
+202230517-7
 
 <!---
 ZeLukinha/ZeLukinha is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

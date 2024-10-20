@@ -1,35 +1,8 @@
-### ESTRUCTURA DE DATOS Y ALGORITMO TAREA 1
-Para esta tarea se pidio realizar 3 ejercicos de los 5 propuestos
-
-- Ejercico 2: Palindromo ->
-Se pide encontar el mayor palindromo en un texto dado por el usuario.//
-INGRESE SU PALABRA: tangananica
-EL PALINDROMO MAS LARGO ES: ana
-
-- Ejercicio 4: Contador ->
-Se realiza un analisis de una cadena de texto, el cual el programa realiza una cuenta de la cantidad de
-vocales, consonantes, digitos y caracteres especiales.//
-INGRESE SU CADENA DE TEXTO:
-Hola ayudante como estas
-contar_vocales(str) = 10
-contar_consonantes(str) = 12
-contar_digitos(str) = 0
-contar_caracteres_especiales(str) = 1
-contar_palabras(str) = 4
-
-- Ejercicio 5: Bodoque ->
-Se pide gestionar apuestas de caballos y almacenarlas en un array cuidando la memoria.//
-INGRESE EL NUMERO DE CABALLOS QUE QUIERE REGISTRAR: 2
-INGRESE EL NOMBRE DEL CABALLO 1: juan
-INGRESE LA APUESTA PARA juan: 9000
-INGRESE EL NUMERO DEL CABALLO juan: 20
-INGRESE EL NOMBRE DEL CABALLO 2: carlos
-INGRESE LA APUESTA PARA carlos: 5000
-INGRESE EL NUMERO DEL CABALLO carlos: 77
-CABALLOS REGISTRADOS:
-NOMBRE: juan, APUESTA: 9000, NUMERO DE CABALLO: 20
-NOMBRE: carlos, APUESTA: 5000, NUMERO DE CABALLO: 77
-
+### ESTRUCTURA DE DATOS Y ALGORITMO TAREA 2
+Esta tarea consiste en un control de asistencia, en el programa se utiliza una lista doblemente enlazada
+para almacenar la informacion de los estudiantes y su asistencia a clases.
+El objetivo del programa es procesar una lista de estudiantes y generar un archivo .CSV mostrando 
+si el estudiante asistio o no en la fecha dada
 
 -  Condiciones de compilacion y ejecucion:
 Debe ser compilado en la version aragorn gcc 4.8.5

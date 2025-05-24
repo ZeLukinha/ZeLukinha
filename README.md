@@ -1,20 +1,20 @@
-### ESTRUCTURA DE DATOS Y ALGORITMO TAREA 2
-Esta tarea consiste en un control de asistencia, en el programa se utiliza una lista doblemente enlazada
-para almacenar la informacion de los estudiantes y su asistencia a clases.
-El objetivo del programa es procesar una lista de estudiantes y generar un archivo .CSV mostrando 
-si el estudiante asistio o no en la fecha dada
+### ESTRUCTURA DE DATOS Y ALGORITMO TAREA 1
+Esta tarea consiste en el desarrollo de un videojuego de combate llamado “RAV KOMBAT: Choose Your Destiny”, donde el jugador elige un estudiante para enfrentarse a una torre de profesores en batallas por turnos.  
+Se utilizan estructuras de datos para representar estudiantes, profesores y mejoras en atributos, simulando un sistema progresivo de dificultad y recompensas.  
+El objetivo del programa es superar la torre y coronarse como el campeon, gestionando estructuras enlazadas, combates y mejoras durante el juego.
 
 -  Condiciones de compilacion y ejecucion:
 Debe ser compilado en la version aragorn gcc 4.8.5
 
 - Instruccion de compilacion:
 al trabajar con aragorn es necesario compilar usando -std=c99
-gcc -std=c99 NombreDelArchvio.c -o NombreDelArchivo
-./NombreDelArchivo
+gcc -std=c99
+  Make
+  ./ravkombat estudiantes_elegibles.csv profesores_npc.csv
 
 -  Informacion del creador:
 Lucas Ignacio Andrade Gonzalez 
-Paralelo 200
+Paralelo 201
 202230517-7
 
 <!---

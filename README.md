@@ -1,21 +1,34 @@
-### ESTRUCTURA DE DATOS Y ALGORITMO TAREA 1
-Esta tarea consiste en el desarrollo de un videojuego de combate llamado “RAV KOMBAT: Choose Your Destiny”, donde el jugador elige un estudiante para enfrentarse a una torre de profesores en batallas por turnos.  
-Se utilizan estructuras de datos para representar estudiantes, profesores y mejoras en atributos, simulando un sistema progresivo de dificultad y recompensas.  
-El objetivo del programa es superar la torre y coronarse como el campeon, gestionando estructuras enlazadas, combates y mejoras durante el juego.
+ESTRUCTURA DE DATOS Y ALGORITMOS - TAREA 2
 
--  Condiciones de compilacion y ejecucion:
-Debe ser compilado en la version aragorn gcc 4.8.5
+Esta tarea consiste en el desarrollo de un sistema llamado “DISCORDIA GAME BOT: Guess the Picture”, donde el jugador debe adivinar una palabra a partir de una imagen que se va revelando parcialmente en base a sus intentos.
 
-- Instruccion de compilacion:
-al trabajar con aragorn es necesario compilar usando -std=c99
-gcc -std=c99
-  Make
-  ./ravkombat estudiantes_elegibles.csv profesores_npc.csv
+Se utilizan estructuras de datos para representar los píxeles de una imagen encriptada (formato .dis), los cuales deben ser ordenados por su ID para reconstruir correctamente la imagen original (.ppm). Además, se emplean distintos algoritmos de ordenamiento para observar sus diferencias de complejidad al desencriptar parcialmente las imágenes.
 
--  Informacion del creador:
-Lucas Ignacio Andrade Gonzalez 
-Paralelo 201
-202230517-7
+El objetivo del programa es leer un archivo de imagen encriptado, ordenar los datos utilizando distintos algoritmos, generar versiones parciales de la imagen revelada, y medir empíricamente el rendimiento de los algoritmos.
+
+• Condiciones de compilación y ejecución:
+  El programa debe ser compilado en el entorno Aragorn, usando gcc versión 4.8.5 y el estándar C99.
+
+• Instrucción de compilación:
+  make
+
+• Instrucción de ejecución:
+  ./programa <numero_archivo.dis>
+
+  Ejemplo:
+  ./programa 3.dis
+
+• Archivos generados:
+  imagen_25.ppm
+  imagen_50.ppm
+  imagen_75.ppm
+  imagen_100.ppm
+  analisis.txt
+
+• Información del creador:
+  Lucas Ignacio Andrade González - Paralelo 201
+  RUT: 202230517-7
+
 
 <!---
 ZeLukinha/ZeLukinha is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

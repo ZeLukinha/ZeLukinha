@@ -1,34 +1,24 @@
-ESTRUCTURA DE DATOS Y ALGORITMOS - TAREA 2
+BASE DE DATOS - TAREA 1
 
-Esta tarea consiste en el desarrollo de un sistema llamado “DISCORDIA GAME BOT: Guess the Picture”, donde el jugador debe adivinar una palabra a partir de una imagen que se va revelando parcialmente en base a sus intentos.
-
-Se utilizan estructuras de datos para representar los píxeles de una imagen encriptada (formato .dis), los cuales deben ser ordenados por su ID para reconstruir correctamente la imagen original (.ppm). Además, se emplean distintos algoritmos de ordenamiento para observar sus diferencias de complejidad al desencriptar parcialmente las imágenes.
-
-El objetivo del programa es leer un archivo de imagen encriptado, ordenar los datos utilizando distintos algoritmos, generar versiones parciales de la imagen revelada, y medir empíricamente el rendimiento de los algoritmos.
+Esta tarea consiste en el diseño, construcción y manipulación de una base de datos relacional 
+orientada al seguimiento y gestión de funcionalidades y errores de una aplicación de software.
+El objetivo principal es modelar, implementar y poblar una base de datos que permita registrar
+usuarios, ingenieros, funcionalidades, errores, temas y criterios de evaluación.
 
 • Condiciones de compilación y ejecución:
-  El programa debe ser compilado en el entorno Aragorn, usando gcc versión 4.8.5 y el estándar C99.
-
-• Instrucción de compilación:
-  make
+  El programa se creo en PostgreSQL
 
 • Instrucción de ejecución:
-  ./programa <numero_archivo.dis>
-
-  Ejemplo:
-  ./programa 3.dis
-
-• Archivos generados:
-  imagen_25.ppm
-  imagen_50.ppm
-  imagen_75.ppm
-  imagen_100.ppm
-  analisis.txt
-
+ - Abrir el entorno en el cual se creo el programa, en este caso, PostgreSQL (codigos creados en pgadmin4)
+ - Ejecutar el script CREATE.sql este archivo crea las tablas de la base de datos (verificar su creacion en "schemas" > "tables")
+ - Ejecutar el/los scrip/s de insercion de datos para poblar las tablas
+ - probar las consultas o validaciones necesarias segun la pauta, ejecutando los archvivos.sql correspondientes
+  
 • Información del creador:
-  Lucas Ignacio Andrade González - Paralelo 201
-  RUT: 202230517-7
-
+  Lucas Ignacio Andrade González 
+  Rol: 202230517-7
+  Isidora Andrea Labarca Arce
+  Rol: 202473542-K
 
 <!---
 ZeLukinha/ZeLukinha is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

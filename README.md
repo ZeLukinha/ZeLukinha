@@ -1,18 +1,18 @@
-BASE DE DATOS - TAREA 1
+BASE DE DATOS - TAREA 2
 
-Esta tarea consiste en el diseño, construcción y manipulación de una base de datos relacional 
-orientada al seguimiento y gestión de funcionalidades y errores de una aplicación de software.
-El objetivo principal es modelar, implementar y poblar una base de datos que permita registrar
-usuarios, ingenieros, funcionalidades, errores, temas y criterios de evaluación.
+El proyecto ZeroPressure es una aplicación web conectada a una base de datos en MySQL, creada para administrar y controlar las funcionalidades y errores que ocurren  dentro de un sistema de software. La base de datos permite registrar usuarios, ingenieros y solicitudes, y aplicar reglas automáticas mediante funciones,         procedimientos y triggers que asignan ingenieros y limitan la cantidad de solicitudes por día.
+En la parte web, desarrollada en PHP, se construyó una interfaz que permite a los usuarios registrarse, iniciar sesión, crear y visualizar errores o funcionalidades, y acceder a un panel principal (dashboard) que muestra toda la información conectada con la base de datos.
+
 
 • Condiciones de compilación y ejecución:
-  El programa se creo en PostgreSQL
+  el sistema fue desarrollado en PHP con base de datos MySQL (phpmyadmin) y entorno local XAMPP (servicios Apache y MySQL activos).
+  El entorno de ejecución debe contar con un servidor local activo y conexión estable a la base de datos definida en el archivo `Conexion.php`.
 
 • Instrucción de ejecución:
- - Abrir el entorno en el cual se creo el programa, en este caso, PostgreSQL (codigos creados en pgadmin4)
- - Ejecutar el script CREATE.sql este archivo crea las tablas de la base de datos (verificar su creacion en "schemas" > "tables")
- - Ejecutar el/los scrip/s de insercion de datos para poblar las tablas
- - probar las consultas o validaciones necesarias segun la pauta, ejecutando los archvivos.sql correspondientes
+ - Iniciar el entorno local con XAMPP (servicios Apache y MySQL activos)
+ - En phpmyadmin, importar la base de datos "zeropressure", la cual importara los archivos .sql necesarios
+ - Iniciar la aplicación desde el navegador con la siguiente ruta: http://localhost/ZeroPressure/Login.php
+ - Probar el sistema creando un usuario nuevo, iniciando sesión y registrando errores o funcionalidades. 
   
 • Información del creador:
   Lucas Ignacio Andrade González 
